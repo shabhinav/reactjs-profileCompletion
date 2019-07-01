@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+
+.herobanner{
+    h2{
+        text-align: center;
+        margin:5vh 0px;
+        font-weight: bold;
+        color:#383838;
+    }
+       .row{
+        text-align: center;
+
+    }
+    p{
+        font-size:13px;
+        color: #97A2B2;
+    }
+    a{
+        font-size: 13px;
+        color:#97A2B2 !important;
+        margin-bottom: 24px;
+        font-weight: bold;
+        &:hover{
+            text-decoration:underline !important;
+            color:#559EE4 !important;
+        }
+    }
+    .stepsstyling{
+        line-height: 3em;
+    }
+    font-family: 'Prompt', sans-serif;
+
+}
