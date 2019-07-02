@@ -4,8 +4,8 @@ import Herobanner from './herobanner';
 import Profile from './profile';
 import './app.scss'
 import Profilesetup from './profilesetup';
-import Psychomatrictest from './psychometrictest';
-import Editpref from './editpref';
+import Editpref from './Editpref';
+
 
 export default class App extends React.Component{
   constructor(props){
@@ -32,15 +32,15 @@ export default class App extends React.Component{
 
     }
     else{
-      message=<div><Psychomatrictest /></div>
+      message=<div><Editpref /></div>
 
     }
     return(
       <div>
         <Header />
         <Herobanner changestate={this.changestate}/>
-        <div className=" profilebg">{message}</div>    
-        <Editpref/>
+        <div className=" profilebg">{message}</div>  
+
       </div>
     );
   }

@@ -53,10 +53,10 @@ export default class Editpref extends React.Component{
 
     render(){
         const internlist = this.state.intern.map((link) =>
-        <li className={this.state.selectedintern.indexOf(link.id)>-1?'active':''}  onClick={()=>{this.storeid('intern',link.id)}} key={link.id}>{link.text}  </li> 
+        <li className={this.state.selectedintern.indexOf(link.text)>-1?'active':''}  onClick={()=>{this.storeid('intern',link.text)}} key={link.id}>{link.text}  </li> 
         );
         const missionlist = this.state.mission.map((links) =>
-        <li className={this.state.selectedmission.indexOf(links.id)>-1?'activem':''}onClick={()=>{this.storeid('mission',links.id)}} key={links.id}>{links.text} </li> 
+        <li className={this.state.selectedmission.indexOf(links.text)>-1?'activem':''}onClick={()=>{this.storeid('mission',links.text)}} key={links.id}>{links.text} </li> 
         );
 
         return(
