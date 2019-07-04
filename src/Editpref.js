@@ -39,15 +39,39 @@ export default class Editpref extends React.Component{
 
     }
 
-        storeid(type,id){
+        storeid(type,text){
             if(type=='intern'){
-                this.setState({
-                    selectedintern:[...this.state.selectedintern,id]
-                  });
+                
+                const index=this.state.selectedintern.indexOf(text);
+            
+                if(index>-1){
+                    const temparray=[...this.state.selectedintern];
+                    temparray.splice(index,1);
+                   this.setState({
+                       selectedintern:temparray
+                   });
+                }
+                else{
+                    this.setState({
+                        selectedintern:[...this.state.selectedintern,text]
+                        
+                    });
+                }
             }else if(type=='mission'){
-                this.setState({
-                    selectedmission:[...this.state.selectedmission,id]
-                  });
+
+                const index=this.state.selectedmission.indexOf(text);
+                    if(index>-1){
+                        const temparray=[...this.state.selectedmission];
+                        temparray.splice(index,1);
+                        this.setState({
+                            selectedmission:temparray
+                        });
+                    }else{
+                        this.setState({
+                            selectedmission:[...this.state.selectedmission,text]
+                          });
+                    }
+                
             }
         }
 

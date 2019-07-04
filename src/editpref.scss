@@ -17,9 +17,10 @@
         border-radius:100px; 
         display: inline-block;
         padding: 9px 13px;
-        margin:7px;
+        margin:5px;
         background-color: white;
-        font-size:17px;
+        font-size:14px;
+        cursor: pointer;
     }
     h1{
         text-align: center;
@@ -42,6 +43,9 @@
         margin-left: 340px;
         padding: 7px 15px;
         font-size: 17px;
+    }
+    ul{
+        padding:0px;
     }
     
         padding: 20px;

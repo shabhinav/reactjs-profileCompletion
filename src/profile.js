@@ -63,8 +63,7 @@ export default class Profile extends React.Component{
                     </div >
                     <div class="offset-8 profilebutton">
                     <ButtonToolbar>
-                        <Button variant="outline-secondary">cancel</Button>
-                        <Button variant="primary" className='ml-2'>save and proceed</Button>
+                        <Button variant="primary" className="btn_styling">save and proceed</Button>
                     </ButtonToolbar>
                     </div>
                     </div>

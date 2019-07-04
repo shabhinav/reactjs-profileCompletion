@@ -16,44 +16,24 @@ export default class Profilesetup extends React.Component{
         return(
             <div className="profilesetup">
                 <div class="container">
-                    <div className="row">
-                        <div className="offset-3 col-lg-6">
-                            <h1>Login</h1>
-                            <div class='socioicons'>
-                                <ButtonToolbar>
-                                    <Button variant="outline-danger" className="buttons"><i class="fab fa-google"></i>Continue with google</Button>
-                                    <Button variant="outline-dark"  className="buttons"><i class="fab fa-github"></i>Continue with github</Button>
-                                    <Button variant="outline-primary"  className="buttons"><i class="fab fa-linkedin"></i>Continue with linkdin</Button>
-                                    <Button variant="outline-success" className="buttons"><i class="fas fa-envelope"></i>Continue with   Email</Button>
-                                </ButtonToolbar>
-                            </div>
-                        </div>  
-                    </div>
                     <div className="Form conatiner">
                         <div className="row">
                             <div className="offset-1 col-lg-9 formdesign">
 
                             <Form>
                                 <div className="row">
-                                <div className="col-lg-6 dropsel_design">
+                                <div className="offset-3 col-lg-6 dropsel_design">
                             <Dropdown>
                             < Dropdown.Toggle variant="success" id="dropdown-basic">
                                 college and Education
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu>           
-                                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                                <Dropdown.Item href="#/action-1">D.A.V</Dropdown.Item>
+                                <Dropdown.Item href="#/action-2">I.P.U</Dropdown.Item>
+                                <Dropdown.Item href="#/action-3">D.P.S</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
-                            </div>
-                            <div className="col-lg-6 dropsel_design">
-                            <select>
-                                <option value="A">Delhi</option>
-                                <option value="B">Banana</option>
-                                <option value="C">Cranberry</option>
-                            </select>
                             </div>
                                 </div>
                             
@@ -104,6 +84,45 @@ export default class Profilesetup extends React.Component{
                             <Form.Control type="text" placeholder="Description" />
                             </Col>
                         </Form.Group>
+
+                        <div className="row">
+                            <div className="offset-3 col-lg-6 dropsel_design">
+                                <select>
+                                    <option value="A">Andhra Pradesh</option>
+                                    <option value="B">Arunachal Pradesh</option>
+                                    <option value="C">Assam</option>
+                                    <option value="A">Bihar</option>
+                                    <option value="">Chandigarh</option>
+                                    <option value="B">Chattisgarh</option>
+                                    <option value="">Delhi</option>
+                                    <option value="C">Goa</option>
+                                    <option value="A">Gujrat</option>
+                                    <option value="B">Harayna</option>
+                                    <option value="C">Himachal Pradesh</option>
+                                    <option value="A">Jammu and Kashmir</option>
+                                    <option value="B">Jharkhand</option>
+                                    <option value="C">karnataka</option>
+                                    <option value="A">Kerala</option>
+                                    <option value="B">Madhya Pradesh</option>
+                                    <option value="C">Maharashtra</option>
+                                    <option value="A">Manipur</option>
+                                    <option value="B">Meghalaya</option>
+                                    <option value="C">Mizoram</option>
+                                    <option value="A">Nagaland</option>
+                                    <option value="B">Orisha</option>
+                                    <option value="C">Punjab</option>
+                                    <option value="A">Rajisthan</option>
+                                    <option value="B">Sikkim</option>
+                                    <option value="C">Tamil Nadu</option>
+                                    <option value="A">Telangana</option>
+                                    <option value="B">Tripura</option>
+                                    <option value="C">Uttarpradesh</option>
+                                    <option value="A">uttraKhand</option>
+                                    <option value="B">West Bengal</option>
+                                </select>
+                            </div>
+                        </div>
+
                             </Form>
                             
                             </div>
