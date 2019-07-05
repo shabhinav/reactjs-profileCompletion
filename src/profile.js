@@ -53,12 +53,41 @@ export default class Profile extends React.Component{
 
                         <Form.Group as={Row} controlId="formPlaintextPassword">
                             <Form.Label column lg="3">
+                              D.O.B 
+                            </Form.Label>
+                            <Col lg="8">
+                            <Form.Control type="text" placeholder="DD/MM/YYYY" />
+                            </Col>
+                        </Form.Group>
+
+                        <Form.Group as={Row} controlId="formPlaintextPassword">
+                            <Form.Label column lg="3">
+                              Gender
+                            </Form.Label>
+                            <Col lg="8">
+                            <Form.Control type="Text" placeholder="Gender" />
+                            </Col>
+                        </Form.Group>
+
+
+                        <Form.Group as={Row} controlId="formPlaintextPassword">
+                            <Form.Label column lg="3">
                               Password
                             </Form.Label>
                             <Col lg="8">
                             <Form.Control type="password" placeholder="Password" />
                             </Col>
                         </Form.Group>
+
+                        <Form.Group as={Row} controlId="formPlaintextPassword">
+                            <Form.Label column lg="3">
+                             Confirm Password
+                            </Form.Label>
+                            <Col lg="8">
+                            <Form.Control type="password" placeholder=" Confirm Password" />
+                            </Col>
+                        </Form.Group>
+
                     </Form>
                     </div >
                     <div class="offset-8 profilebutton">

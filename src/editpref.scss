@@ -13,7 +13,7 @@
     }
     li{
         list-style-type:none;
-        border:2px solid black;
+        border:2px solid #C4C5C4;
         border-radius:100px; 
         display: inline-block;
         padding: 9px 13px;
@@ -27,9 +27,11 @@
     }
     .internbg{
         background-color: #F4F4F4;
+        border-radius: 50px;
     }
     .missionbg{
-        background-color: #F4F4F4
+        background-color: #F4F4F4;
+        border-radius: 50px;
         
     }
     h4{
@@ -45,9 +47,10 @@
         font-size: 17px;
     }
     ul{
-        padding:0px;
+        padding:8px;
     }
     
         padding: 20px;
         background-color: white;
+    
 }

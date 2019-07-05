@@ -88,7 +88,7 @@ export default class Editpref extends React.Component{
                 <div className="container">
                     <h1>Edit Preferences</h1>
                     <div className="row">
-                        <div className="col-lg-6 ">
+                        <div className="col-lg-6 abc">
                             <h3>Internship Preferences</h3>
                             <div className="internbg">
                                 <ul>
@@ -96,7 +96,7 @@ export default class Editpref extends React.Component{
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-6 ">
+                        <div className="col-lg-6 abc">
                             <h3>Missions Preferences</h3>
                             <div className="missionbg">
                                 <ul>
